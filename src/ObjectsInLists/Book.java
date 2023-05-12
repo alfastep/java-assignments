@@ -11,6 +11,18 @@ public class Book {
         this.year = year;
     }
 
+    public Book(String title, int year) {
+        this.title = title;
+        this.numPages = 0;
+        this.year = year;
+    }
+
+    public Book(String title) {
+        this.title = title;
+        this.numPages = 0;
+        this.year = 0;
+    }
+
     public String getTitle() {
         return title;
     }
